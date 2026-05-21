@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="MedicalScout.Application/MedicalScout.Application.csproj" />
+  <Project Path="MedicalScout.Domain/MedicalScout.Domain.csproj" />
+  <Project Path="MedicalScout.Infrastructure/MedicalScout.Infrastructure.csproj" />
+  <Project Path="MedicalScout/MedicalScout.csproj" />
+</Solution>
