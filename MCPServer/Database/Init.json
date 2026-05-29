@@ -1,0 +1,272 @@
+[
+    {
+        "code": "MORFO",
+        "name": "Morfologia krwi obwodowej",
+        "description": "Podstawowe badanie krwi oceniające liczbę i parametry krwinek czerwonych, białych oraz płytek krwi. Wykrywa anemię, infekcje, stany zapalne, choroby krwi.",
+        "indications": [ "zmęczenie", "osłabienie", "bladość", "infekcje", "nawracające infekcje", "krwawienia", "siniaki", "duszność", "kontrola ogólna" ],
+        "category": "Hematologia",
+        "priceGross": 18.00,
+        "preparationInfo": "Najlepiej rano, na czczo (8-12h od ostatniego posiłku)."
+    },
+    {
+        "code": "OB",
+        "name": "OB (odczyn Biernackiego)",
+        "description": "Niespecyficzny wskaźnik stanu zapalnego organizmu. Podwyższony przy infekcjach, chorobach reumatycznych, nowotworach.",
+        "indications": [ "stan zapalny", "gorączka", "ból stawów", "infekcje", "nieswoiste objawy" ],
+        "category": "Hematologia",
+        "priceGross": 8.00,
+        "preparationInfo": "Brak specjalnych zaleceń."
+    },
+    {
+        "code": "CRP",
+        "name": "Białko C-reaktywne (CRP)",
+        "description": "Czuły wskaźnik ostrego stanu zapalnego. Rośnie szybciej niż OB. Pomaga różnicować infekcje bakteryjne od wirusowych.",
+        "indications": [ "gorączka", "stan zapalny", "infekcje", "ból stawów", "podejrzenie infekcji bakteryjnej" ],
+        "category": "Hematologia",
+        "priceGross": 15.00,
+        "preparationInfo": "Brak specjalnych zaleceń, można po posiłku."
+    },
+    {
+        "code": "GLUK",
+        "name": "Glukoza na czczo",
+        "description": "Podstawowe badanie w diagnostyce cukrzycy i zaburzeń gospodarki węglowodanowej.",
+        "indications": [ "wzmożone pragnienie", "częste oddawanie moczu", "zmęczenie", "nagła utrata masy ciała", "otyłość", "cukrzyca w rodzinie", "kontrola profilaktyczna" ],
+        "category": "Diabetologia",
+        "priceGross": 10.00,
+        "preparationInfo": "Wyłącznie na czczo (minimum 8h od ostatniego posiłku)."
+    },
+    {
+        "code": "HBA1C",
+        "name": "Hemoglobina glikowana (HbA1c)",
+        "description": "Średni poziom glukozy we krwi z ostatnich 2-3 miesięcy. Kluczowe badanie w monitorowaniu cukrzycy.",
+        "indications": [ "cukrzyca", "kontrola cukrzycy", "stan przedcukrzycowy", "podwyższona glukoza", "otyłość" ],
+        "category": "Diabetologia",
+        "priceGross": 30.00,
+        "preparationInfo": "Nie wymaga bycia na czczo."
+    },
+    {
+        "code": "TSH",
+        "name": "TSH (tyreotropina)",
+        "description": "Podstawowe badanie oceniające funkcję tarczycy. Wykrywa niedoczynność i nadczynność tarczycy.",
+        "indications": [ "zmęczenie", "wypadanie włosów", "przyrost masy ciała", "utrata masy ciała", "zaburzenia miesiączkowania", "wahania nastroju", "kołatanie serca", "zaparcia", "uczucie zimna", "uderzenia gorąca", "suchość skóry" ],
+        "category": "Hormony",
+        "priceGross": 25.00,
+        "preparationInfo": "Najlepiej rano, między 7:00 a 10:00."
+    },
+    {
+        "code": "FT3",
+        "name": "FT3 (wolna trójjodotyronina)",
+        "description": "Aktywny hormon tarczycy. Badany przy podejrzeniu nadczynności lub w diagnostyce różnicowej zaburzeń tarczycy.",
+        "indications": [ "nieprawidłowe TSH", "kołatanie serca", "drżenie rąk", "uderzenia gorąca", "utrata masy ciała", "nadczynność tarczycy" ],
+        "category": "Hormony",
+        "priceGross": 28.00,
+        "preparationInfo": "Najlepiej rano."
+    },
+    {
+        "code": "FT4",
+        "name": "FT4 (wolna tyroksyna)",
+        "description": "Hormon tarczycy. Wraz z TSH ocenia jej funkcję. Pomocny w diagnostyce niedoczynności i nadczynności.",
+        "indications": [ "nieprawidłowe TSH", "zmęczenie", "wypadanie włosów", "uczucie zimna", "suchość skóry", "niedoczynność tarczycy", "wole" ],
+        "category": "Hormony",
+        "priceGross": 28.00,
+        "preparationInfo": "Najlepiej rano."
+    },
+    {
+        "code": "ATPO",
+        "name": "Anty-TPO (przeciwciała przeciwko peroksydazie tarczycowej)",
+        "description": "Wykrywa autoimmunologiczne choroby tarczycy, głównie chorobę Hashimoto.",
+        "indications": [ "nieprawidłowe TSH", "choroba Hashimoto", "podejrzenie autoimmunologii", "niedoczynność tarczycy" ],
+        "category": "Hormony",
+        "priceGross": 45.00,
+        "preparationInfo": "Brak specjalnych zaleceń."
+    },
+    {
+        "code": "FE",
+        "name": "Żelazo",
+        "description": "Stężenie żelaza w surowicy. Pomocne w diagnostyce niedokrwistości z niedoboru żelaza i przeciążenia żelazem.",
+        "indications": [ "zmęczenie", "bladość", "wypadanie włosów", "łamliwe paznokcie", "duszność wysiłkowa", "anemia" ],
+        "category": "Biochemia",
+        "priceGross": 15.00,
+        "preparationInfo": "Rano, na czczo. Nie brać preparatów żelaza przez 24h przed badaniem."
+    },
+    {
+        "code": "FERR",
+        "name": "Ferrytyna",
+        "description": "Wskaźnik zapasów żelaza w organizmie. Czulszy niż samo żelazo. Niska ferrytyna = niedobór żelaza nawet przy prawidłowej morfologii.",
+        "indications": [ "zmęczenie", "wypadanie włosów", "łamliwe paznokcie", "zespół niespokojnych nóg", "anemia", "obfite miesiączki", "dieta wegańska", "dieta wegetariańska" ],
+        "category": "Biochemia",
+        "priceGross": 30.00,
+        "preparationInfo": "Rano, na czczo."
+    },
+    {
+        "code": "B12",
+        "name": "Witamina B12",
+        "description": "Niedobór powoduje anemię megaloblastyczną i objawy neurologiczne. Częsty u wegan i osób starszych.",
+        "indications": [ "zmęczenie", "drętwienie kończyn", "mrowienie", "zaburzenia pamięci", "dieta wegańska", "dieta wegetariańska", "anemia", "depresja" ],
+        "category": "Witaminy",
+        "priceGross": 35.00,
+        "preparationInfo": "Rano, na czczo."
+    },
+    {
+        "code": "VITD",
+        "name": "Witamina D (25-OH)",
+        "description": "Wskaźnik zaopatrzenia organizmu w witaminę D. Niedobór bardzo powszechny w Polsce, zwłaszcza jesienią i zimą.",
+        "indications": [ "zmęczenie", "bóle kości", "bóle mięśni", "obniżona odporność", "depresja", "wypadanie włosów", "osteoporoza" ],
+        "category": "Witaminy",
+        "priceGross": 50.00,
+        "preparationInfo": "Brak specjalnych zaleceń."
+    },
+    {
+        "code": "KWAS",
+        "name": "Kwas foliowy",
+        "description": "Witamina B9. Niedobór powoduje anemię megaloblastyczną. Krytyczna u kobiet planujących ciążę.",
+        "indications": [ "zmęczenie", "planowanie ciąży", "ciąża", "anemia", "dieta uboga w warzywa liściaste" ],
+        "category": "Witaminy",
+        "priceGross": 40.00,
+        "preparationInfo": "Rano, na czczo."
+    },
+    {
+        "code": "LIPID",
+        "name": "Lipidogram (cholesterol całkowity, HDL, LDL, trójglicerydy)",
+        "description": "Ocena gospodarki lipidowej. Ryzyko miażdżycy i chorób sercowo-naczyniowych.",
+        "indications": [ "otyłość", "nadciśnienie", "cukrzyca", "choroby serca w rodzinie", "kontrola profilaktyczna", "ból w klatce piersiowej" ],
+        "category": "Lipidogram",
+        "priceGross": 35.00,
+        "preparationInfo": "Na czczo, minimum 12h od ostatniego posiłku."
+    },
+    {
+        "code": "ALT",
+        "name": "ALT (aminotransferaza alaninowa)",
+        "description": "Enzym wątrobowy. Podwyższony w uszkodzeniu wątroby (alkohol, leki, WZW, stłuszczenie).",
+        "indications": [ "ból w prawym podżebrzu", "żółtaczka", "zmęczenie", "spożywanie alkoholu", "przyjmowanie leków", "stłuszczenie wątroby", "podejrzenie WZW" ],
+        "category": "Wątroba",
+        "priceGross": 10.00,
+        "preparationInfo": "Rano, na czczo."
+    },
+    {
+        "code": "AST",
+        "name": "AST (aminotransferaza asparaginianowa)",
+        "description": "Enzym obecny w wątrobie, sercu i mięśniach. Wraz z ALT ocenia funkcję wątroby.",
+        "indications": [ "ból w prawym podżebrzu", "zmęczenie", "spożywanie alkoholu", "ból mięśni", "podejrzenie choroby wątroby" ],
+        "category": "Wątroba",
+        "priceGross": 10.00,
+        "preparationInfo": "Rano, na czczo."
+    },
+    {
+        "code": "GGTP",
+        "name": "GGTP (gamma-glutamylotranspeptydaza)",
+        "description": "Czuły wskaźnik chorób wątroby i dróg żółciowych. Szczególnie rośnie przy spożyciu alkoholu.",
+        "indications": [ "spożywanie alkoholu", "ból w prawym podżebrzu", "żółtaczka", "podejrzenie choroby dróg żółciowych" ],
+        "category": "Wątroba",
+        "priceGross": 12.00,
+        "preparationInfo": "Rano, na czczo. Unikać alkoholu przez 48h."
+    },
+    {
+        "code": "BILI",
+        "name": "Bilirubina całkowita",
+        "description": "Produkt rozpadu hemoglobiny. Podwyższona w żółtaczkach, chorobach wątroby, niedokrwistości hemolitycznej.",
+        "indications": [ "żółtaczka", "zażółcenie skóry", "ciemny mocz", "jasny stolec", "ból w prawym podżebrzu" ],
+        "category": "Wątroba",
+        "priceGross": 10.00,
+        "preparationInfo": "Rano, na czczo."
+    },
+    {
+        "code": "KREA",
+        "name": "Kreatynina",
+        "description": "Wskaźnik czynności nerek. Pozwala obliczyć GFR (filtrację kłębuszkową).",
+        "indications": [ "obrzęki", "nadciśnienie", "cukrzyca", "zmiana ilości moczu", "ból w okolicy lędźwiowej", "kontrola nerek" ],
+        "category": "Nerki",
+        "priceGross": 10.00,
+        "preparationInfo": "Brak specjalnych zaleceń."
+    },
+    {
+        "code": "MOCZ",
+        "name": "Mocznik",
+        "description": "Końcowy produkt przemiany białek. Oceniany wraz z kreatyniną w diagnostyce nerek.",
+        "indications": [ "obrzęki", "podejrzenie niewydolności nerek", "odwodnienie", "dieta wysokobiałkowa" ],
+        "category": "Nerki",
+        "priceGross": 10.00,
+        "preparationInfo": "Brak specjalnych zaleceń."
+    },
+    {
+        "code": "BMOCZ",
+        "name": "Badanie ogólne moczu",
+        "description": "Ocena fizykochemiczna i mikroskopowa moczu. Wykrywa infekcje, stany zapalne, cukrzycę, choroby nerek.",
+        "indications": [ "pieczenie przy oddawaniu moczu", "częste oddawanie moczu", "ból podbrzusza", "ból w okolicy lędźwiowej", "krew w moczu", "obrzęki", "kontrola ogólna" ],
+        "category": "Nerki",
+        "priceGross": 12.00,
+        "preparationInfo": "Pierwsza poranna porcja moczu ze środkowego strumienia."
+    },
+    {
+        "code": "KWAS_M",
+        "name": "Kwas moczowy",
+        "description": "Końcowy produkt metabolizmu puryn. Podwyższony w dnie moczanowej i niektórych chorobach nerek.",
+        "indications": [ "ból dużego palca u nogi", "ból stawów", "dna moczanowa", "kamica nerkowa", "otyłość", "nadciśnienie" ],
+        "category": "Biochemia",
+        "priceGross": 12.00,
+        "preparationInfo": "Rano, na czczo."
+    },
+    {
+        "code": "NA",
+        "name": "Sód (Na)",
+        "description": "Główny kation pozakomórkowy. Ważny w gospodarce wodno-elektrolitowej.",
+        "indications": [ "odwodnienie", "obrzęki", "biegunka", "wymioty", "nadciśnienie", "zawroty głowy" ],
+        "category": "Elektrolity",
+        "priceGross": 10.00,
+        "preparationInfo": "Brak specjalnych zaleceń."
+    },
+    {
+        "code": "K",
+        "name": "Potas (K)",
+        "description": "Kluczowy elektrolit dla pracy serca i mięśni. Zaburzenia mogą być groźne dla życia.",
+        "indications": [ "kołatanie serca", "osłabienie mięśni", "skurcze mięśni", "wymioty", "biegunka", "przyjmowanie diuretyków", "nadciśnienie" ],
+        "category": "Elektrolity",
+        "priceGross": 10.00,
+        "preparationInfo": "Brak specjalnych zaleceń."
+    },
+    {
+        "code": "MG",
+        "name": "Magnez",
+        "description": "Pierwiastek istotny dla pracy mięśni, serca, układu nerwowego. Niedobór bardzo powszechny.",
+        "indications": [ "skurcze mięśni", "drganie powiek", "zmęczenie", "bezsenność", "kołatanie serca", "drażliwość", "bóle głowy" ],
+        "category": "Elektrolity",
+        "priceGross": 12.00,
+        "preparationInfo": "Rano, na czczo."
+    },
+    {
+        "code": "CA",
+        "name": "Wapń całkowity",
+        "description": "Ważny dla kości, mięśni, krzepnięcia krwi. Zaburzenia w chorobach przytarczyc i nerek.",
+        "indications": [ "skurcze mięśni", "drętwienie", "osteoporoza", "bóle kości", "kamica nerkowa" ],
+        "category": "Elektrolity",
+        "priceGross": 12.00,
+        "preparationInfo": "Rano, na czczo."
+    },
+    {
+        "code": "CORT",
+        "name": "Kortyzol",
+        "description": "Hormon stresu produkowany przez nadnercza. Zaburzenia w chorobie Cushinga, Addisona.",
+        "indications": [ "przewlekły stres", "przyrost masy ciała", "rozstępy", "osłabienie", "obniżone ciśnienie", "ciemne plamy na skórze" ],
+        "category": "Hormony",
+        "priceGross": 35.00,
+        "preparationInfo": "Rano, między 7:00 a 9:00 (rytm dobowy)."
+    },
+    {
+        "code": "PSA",
+        "name": "PSA (swoisty antygen sterczowy)",
+        "description": "Marker chorób gruczołu krokowego. Stosowany w diagnostyce i monitorowaniu raka prostaty oraz BPH.",
+        "indications": [ "problemy z oddawaniem moczu u mężczyzn", "częste oddawanie moczu u mężczyzn", "rak prostaty w rodzinie", "kontrola po 50 r.ż. u mężczyzn" ],
+        "category": "Markery nowotworowe",
+        "priceGross": 35.00,
+        "preparationInfo": "Nie wykonywać po badaniu per rectum, kolonoskopii, jeździe na rowerze (48h)."
+    },
+    {
+        "code": "DDIM",
+        "name": "D-dimery",
+        "description": "Produkt rozpadu fibryny. Podwyższone w zakrzepicy, zatorowości płucnej, stanach zapalnych.",
+        "indications": [ "obrzęk jednej nogi", "ból łydki", "duszność", "podejrzenie zakrzepicy", "ból w klatce piersiowej" ],
+        "category": "Krzepnięcie",
+        "priceGross": 45.00,
+        "preparationInfo": "Brak specjalnych zaleceń."
+    }
+]

@@ -1,0 +1,20 @@
+# Build and publish MCPServer (.NET 10)
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+WORKDIR /src
+
+# copy csproj and restore
+COPY ["MCPServer/MCPServer.csproj", "MCPServer/"]
+RUN dotnet restore "MCPServer/MCPServer.csproj"
+
+# copy everything and build
+COPY . .
+WORKDIR "/src/MCPServer"
+RUN dotnet publish "MCPServer.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+# runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
+WORKDIR /app
+ENV ASPNETCORE_URLS="http://+:3001"
+EXPOSE 3001
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "MCPServer.dll"]
